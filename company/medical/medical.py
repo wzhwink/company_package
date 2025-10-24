@@ -4,6 +4,7 @@ import pandas as pd
 from ..base_company import Company
 
 class MedicalCompany(Company):
+    # pass
     def __init__(self, name, specialty, drug_manufacturer=False, ticker=None):
         """
         Initialize a MedicalCompany instance.
